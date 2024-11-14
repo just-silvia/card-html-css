@@ -1,9 +1,9 @@
 body{
     background-color: white;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 80%;
     align-items: center;
 }
 main{
@@ -12,34 +12,46 @@ main{
     border-radius: 10px;
     margin: auto;
     padding: 20px;
+    align-items: center;
 }
 .immagine{
+    justify-items: flex-start;
+    object-position: center;
     width: 200px;
     height: 100px;
-    border-radius: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
 }
-.titolo{
+span{
+    font: bold;
     background-color: lightskyblue;
     color: white;
     border-radius: 10px;
     padding: 10px 20px;
-    font: bold;
+    align-items: center;
 }
 h4{
     font: bold;
     font-size: 15px;
+    align-items: left;
 }
 .pfp{
+    object-fit: contain;
+    object-position: left;
     width: 45px;
     height: 45px;
     border-radius: 40px;
 }
-.nome{
-    font: bolder;
+p{
+    font: bold;
     color: darkslategrey;
+    align-items: left;
 }
 .tempo{
     background-color: beige;
     color: gray;
     font: bold;
+    align-items: left;
 }
